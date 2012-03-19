@@ -1,37 +1,40 @@
 {
-	"name"          : "terminal",
-	"description"   : "Simple command-line terminal for your browser app",
-	"version"       : "1.0.0",
-	"keywords"      : ["util", "functional", "browser", "terminal", "console", "shell"],
-	"homepage"      : "http://github.com/SDA/terminal",
-	"author"        : "Sasa Djolic <sasa.djolic@sdaworld.com>",
-	"maintainers"   : [{
-		"name"      : "Sasa Djolic",
-		"email"     : "sasa.djolic@sdaworld.com",
-		"web"       : "http://www.sasadjolic.com"
+	"name"           : "terminal",
+	"description"    : "Simple command-line terminal for your browser app",
+	"version"        : "1.0.0",
+	"keywords"       : ["util", "functional", "browser", "terminal", "console", "shell"],
+	"homepage"       : "http://github.com/SDA/terminal",
+	"author"         : "Sasa Djolic <sasa.djolic@sdaworld.com>",
+	"maintainers"    : [{
+		"name"       : "Sasa Djolic",
+		"email"      : "sasa.djolic@sdaworld.com",
+		"web"        : "http://www.sasadjolic.com"
 	}],
-	"contributors"  : [{
-		"name"      : "Sasa Djolic",
-		"email"     : "sasa.djolic@sdaworld.com",
-		"web"       : "http://www.sasadjolic.com"
+	"contributors"   : [{
+		"name"       : "Sasa Djolic",
+		"email"      : "sasa.djolic@sdaworld.com",
+		"web"        : "http://www.sasadjolic.com"
 	}],
-	"bugs"          : { "url": "http://github.com/SDA/terminal/issues" },
-	"licenses"      : [{ "type": "MIT", "url": "https://raw.github.com/SDA/terminal/master/LICENSE" }],
-	"repositories"  : [{ "type": "git", "url": "http://github.com/SDA/terminal" }],
-	"scripts"       : {
-		"build"     : "node build/build.js",
-		"test"      : "node test/index.js"
+	"bugs"           : { "url": "http://github.com/SDA/terminal/issues" },
+	"licenses"       : [{ "type": "MIT", "url": "https://raw.github.com/SDA/terminal/master/LICENSE" }],
+	"repositories"   : [{ "type": "git", "url": "http://github.com/SDA/terminal" }],
+	"scripts"        : {
+		"build"      : "node build/build.js",
+		"test"       : "node test/index.js"
 	},
-	"directories"   : {
-		"lib"       : "lib"
+	"directories"    : {
+		"lib"        : "lib"
 	},
 	"devDependencies": {
-		"qunit": ">=0.2.10"
+		"qunit"      : "0.4.x"
 	},
-	"dependencies": {
-		"fs-extra": ">=0.0.4",
-		"less": ">=1.3.0",
-		"mime": ">=1.2.5",
-		"seq": ">=0.3.5"
+	"dependencies"   : {
+		"fs-extra"   : ">= 0.0.4",
+		"less"       : "1.3.x",
+		"mime"       : "1.2.x",
+		"seq"        : "0.3.x"
+	},
+	"engines"        : {
+		"node"       : "0.6.x"
 	}
 }
