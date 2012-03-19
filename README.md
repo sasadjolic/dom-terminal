@@ -1,15 +1,15 @@
+[![Build Status](https://secure.travis-ci.org/[SDA]/[terminal].png)](http://travis-ci.org/[SDA]/[terminal])
+
 # Terminal
 
 Simple command-line terminal for your browser app.
 
 Web apps are great. But sometimes instead of all the double-clicks,
 mouse pointers, taps and swipes across the screen - you just want
-good old keyboard input.
-
-This terminal runs in a browser, desktop or mobile. It provides a simple
+good old keyboard input. This terminal runs in a browser, desktop or mobile. It provides a simple
 and easy way to extend the terminal with your own commands.
 
-Enjoy
+Enjoy.
 
 ## How to use
 
@@ -105,7 +105,7 @@ There are 3 built-in themes:
 * `modern`
 * `white`
 
-`interlaced` theme is the default. If you're nostalgic about the old school CRT
+`interlaced` theme is the default. If you're nostalgic about the old-school CRT
 monitors then this theme is for you.
 
 `modern` is a clean modern theme that's white on black, while the `white` theme is
