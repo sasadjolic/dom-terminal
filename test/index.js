@@ -1,8 +1,9 @@
 qunit = require('qunit');
-qunit.options.assertions = false;
-qunit.options.tests = false;
-qunit.options.summary = false;
-qunit.options.globalSummary = false;
+qunit.options.log.assertions = false;
+qunit.options.log.errors = false;
+qunit.options.log.tests = false;
+qunit.options.log.summary = false;
+qunit.options.log.globalSummary = false;
 qunit.run({
 	code: {
 		path: './lib/Terminal.js',
@@ -11,7 +12,7 @@ qunit.run({
 	tests: [
 		'Terminal.test.js'
 	].map(function (v) { return './test/' + v })
-}, function(report) {
+}, function(err, report) {
 	var assertions = qunit.log.assertion();
 	for (var i in assertions) {
 		var assertion = assertions[i];
