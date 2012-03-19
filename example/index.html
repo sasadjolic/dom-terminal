@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Terminal</title>
+		<link rel="stylesheet" media="all" href="../dist/terminal-1.0.0.min.css">
+	</head>
+<body>
+	<div id="terminal"></div>
+
+<script src="../dist/terminal-1.0.0.min.js"></script>
+<script>
+// Convert the 'terminal' DOM element into a live terminal.
+// This example defines several custom commands for the terminal.
+var terminal = new Terminal('terminal', {}, {
+	execute: function(cmd, args) {
+		switch (cmd) {
+			case 'clear':
+				terminal.clear();
+				return '';
+
+			case 'help':
+				return 'Commands: clear, help, theme, ver or version<br>More help available <a class="external" href="http://github.com/SDA/terminal" target="_blank">here</a>';
+
+			case 'theme':
+				if (args && args[0]) {
+					if (args.length > 1) return 'Too many arguments';
+					else if (args[0].match(/^interlaced|modern|white$/)) { terminal.setTheme(args[0]); return ''; }
+					else return 'Invalid theme';
+				}
+				return terminal.getTheme();
+
+			case 'ver':
+			case 'version':
+				return '1.0.0';
+
+			default:
+				// Unknown command.
+				return false;
+		};
+	}
+});
+</script>
+
+</body>
+</html>
