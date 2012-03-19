@@ -6,11 +6,11 @@ qunit.options.log.summary = false;
 qunit.options.log.globalSummary = false;
 qunit.run({
 	code: {
-		path: './lib/Terminal.js',
+		path: './lib/terminal.js',
 		namespace: 'Terminal'
 	},
 	tests: [
-		'Terminal.test.js'
+		'terminal.test.js'
 	].map(function (v) { return './test/' + v })
 }, function(err, report) {
 	var assertions = qunit.log.assertion();
