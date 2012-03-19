@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/[SDA]/[terminal].png)](http://travis-ci.org/[SDA]/[terminal])
+[![Build Status](https://secure.travis-ci.org/SDA/terminal.png)](http://travis-ci.org/SDA/terminal)
 
 # Terminal
 
