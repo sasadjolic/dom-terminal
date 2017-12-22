@@ -69,7 +69,7 @@ var terminal = new Terminal('terminal', {}, {
 ```
 
 This gives us 4 commands: `clear`, `help`, `theme`, and `ver` or `version`.
-[Go ahead and try it out using our live example.](http://sda.github.com/terminal/example.html)
+[Go ahead and try it out using our live example.](http://sasadjolic.github.com/terminal/example.html)
 
 ## Features
 
