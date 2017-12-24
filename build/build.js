@@ -48,11 +48,11 @@ seq()
 
 		// Embed interlace.png
 		var interlace = 'url("data:' + mime.lookup('lib/interlace.png') + ';base64,' + new Buffer(interlacepng).toString('base64') + '")';
-		styles = styles.replace('dataurl("interlace.png")', interlace);
+		styles = styles.replace(/data-uri\(\"interlace\.png\"\)/g, interlace);
 
 		// Embed external.png
 		var external = 'url("data:' + mime.lookup('lib/external.png') + ';base64,' + new Buffer(externalpng).toString('base64') + '")';
-		styles = styles.replace('dataurl("external.png")', external);
+		styles = styles.replace(/data-uri\(\"external\.png\"\)/g, external);
 
 		// Minify the stylesheet.
 		less.render(styles, {compress: true}, this);
