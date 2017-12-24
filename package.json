@@ -1,5 +1,5 @@
 {
-  "name": "terminal",
+  "name": "dom-terminal",
   "description": "Simple command-line terminal for your browser app",
   "version": "1.0.1",
   "keywords": [
