@@ -8,7 +8,7 @@
     "console",
     "shell"
   ],
-  "homepage": "http://github.com/sasadjolic/terminal",
+  "homepage": "https://github.com/sasadjolic/dom-terminal",
   "author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
   "maintainers": [
     "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)"
@@ -17,12 +17,12 @@
     "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)"
   ],
   "bugs": {
-    "url": "http://github.com/sasadjolic/terminal/issues"
+    "url": "https://github.com/sasadjolic/dom-terminal/issues"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/sasadjolic/terminal"
+    "url": "https://github.com/sasadjolic/dom-terminal.git"
   },
   "scripts": {
     "debug": "node debug/debug.js",
