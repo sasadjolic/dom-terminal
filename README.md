@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/sasadjolic/terminal.png)](http://travis-ci.org/sasadjolic/terminal)
+[![Build Status](https://secure.travis-ci.org/sasadjolic/dom-terminal.png)](http://travis-ci.org/sasadjolic/dom-terminal)
 
 # Terminal
 
@@ -46,7 +46,7 @@ var terminal = new Terminal('terminal', {}, {
 				return '';
 
 			case 'help':
-				return 'Commands: clear, help, theme, ver or version<br>More help available <a class="external" href="http://github.com/SDA/terminal" target="_blank">here</a>';
+				return 'Commands: clear, help, theme, ver or version<br>More help available <a class="external" href="http://github.com/sasadjolic/dom-terminal" target="_blank">here</a>';
 
 			case 'theme':
 				if (args && args[0]) {
@@ -58,7 +58,7 @@ var terminal = new Terminal('terminal', {}, {
 
 			case 'ver':
 			case 'version':
-				return '1.0.0';
+				return '1.0.2';
 
 			default:
 				// Unknown command.
@@ -69,7 +69,7 @@ var terminal = new Terminal('terminal', {}, {
 ```
 
 This gives us 4 commands: `clear`, `help`, `theme`, and `ver` or `version`.
-[Go ahead and try it out using our live example.](http://sasadjolic.github.com/terminal/example.html)
+[Go ahead and try it out using our live example.](http://sasadjolic.github.com/dom-terminal/example.html)
 
 ## Features
 
@@ -236,7 +236,7 @@ works for other browsers, whereas Eric's version is optimized for Chrome.
 
 (The MIT License)
 
-Copyright (c) 2012 Sasa Djolic, SDA Software Associates Inc.
+Copyright (c) 2012-2017 Sasa Djolic
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
