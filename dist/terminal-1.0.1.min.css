@@ -14,12 +14,12 @@
 .terminal-interlaced a{color:#fff;}
 .terminal-interlaced a.external{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9QTFRFzs7OqKio0NDQ////////DlgqrAAAAAV0Uk5T/////wD7tg5TAAAAN0lEQVR42izLyQ0AMAgDQYPpv+b4yD7QEBGcYoI0yN454Sqy9KnfTUufQpB7c/9AM1RlE58AAwBEcAE4zo3mOAAAAABJRU5ErkJggg==") no-repeat scroll right center transparent;padding-right:13px;outline:none;}
 .terminal-interlaced .background{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAMAAACuX0YVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5T/wDltzBKAAAADklEQVR42mJgYGAECDAAAAUAAoeC334AAAAASUVORK5CYII=") top left repeat,rgba(0, 0, 0, 0.9);height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%;}
-.terminal-interlaced .background .interlace{background:dataurl("interlace.png") top left repeat,transparent;height:100%;left:0;opacity:0.15;pointer-events:none;position:absolute;top:0;width:100%;z-index:10;}
+.terminal-interlaced .background .interlace{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAMAAACuX0YVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5T/wDltzBKAAAADklEQVR42mJgYGAECDAAAAUAAoeC334AAAAASUVORK5CYII=") top left repeat,transparent;height:100%;left:0;opacity:0.15;pointer-events:none;position:absolute;top:0;width:100%;z-index:10;}
 .terminal-interlaced .container output pre{color:white;font-family:Inconsolata, monospace;}
 .terminal-interlaced .prompt{color:#fc0;}
 .terminal-modern{color:white;font-family:Inconsolata, monospace;}
 .terminal-modern a{color:#fff;}
-.terminal-modern a.external{background:dataurl("external.png") no-repeat scroll right center transparent;padding-right:13px;outline:none;}
+.terminal-modern a.external{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9QTFRFzs7OqKio0NDQ////////DlgqrAAAAAV0Uk5T/////wD7tg5TAAAAN0lEQVR42izLyQ0AMAgDQYPpv+b4yD7QEBGcYoI0yN454Sqy9KnfTUufQpB7c/9AM1RlE58AAwBEcAE4zo3mOAAAAABJRU5ErkJggg==") no-repeat scroll right center transparent;padding-right:13px;outline:none;}
 .terminal-modern .background{background:#000;height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%;}
 .terminal-modern .background .interlace{display:none;}
 .terminal-modern .container{text-shadow:none;}

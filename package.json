@@ -1,40 +1,50 @@
 {
-	"name"           : "terminal",
-	"description"    : "Simple command-line terminal for your browser app",
-	"version"        : "1.0.0",
-	"keywords"       : ["util", "functional", "browser", "terminal", "console", "shell"],
-	"homepage"       : "http://github.com/SDA/terminal",
-	"author"         : "Sasa Djolic <sasa.djolic@sdaworld.com>",
-	"maintainers"    : [{
-		"name"       : "Sasa Djolic",
-		"email"      : "sasa.djolic@sdaworld.com",
-		"web"        : "http://www.sasadjolic.com"
-	}],
-	"contributors"   : [{
-		"name"       : "Sasa Djolic",
-		"email"      : "sasa.djolic@sdaworld.com",
-		"web"        : "http://www.sasadjolic.com"
-	}],
-	"bugs"           : { "url": "http://github.com/SDA/terminal/issues" },
-	"licenses"       : [{ "type": "MIT", "url": "https://raw.github.com/SDA/terminal/master/LICENSE" }],
-	"repositories"   : [{ "type": "git", "url": "http://github.com/SDA/terminal" }],
-	"scripts"        : {
-		"build"      : "node build/build.js",
-		"test"       : "node test/index.js"
-	},
-	"directories"    : {
-		"lib"        : "lib"
-	},
-	"devDependencies": {
-		"qunit"      : "0.4.x"
-	},
-	"dependencies"   : {
-		"fs-extra"   : ">= 0.0.4",
-		"less"       : "1.3.x",
-		"mime"       : "1.2.x",
-		"seq"        : "0.3.x"
-	},
-	"engines"        : {
-		"node"       : "0.6.x"
-	}
+  "name": "terminal",
+  "description": "Simple command-line terminal for your browser app",
+  "version": "1.0.1",
+  "keywords": [
+    "javascript",
+    "terminal",
+    "console",
+    "shell"
+  ],
+  "homepage": "http://github.com/sasadjolic/terminal",
+  "author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
+  "maintainers": [
+    "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)"
+  ],
+  "contributors": [
+    "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)"
+  ],
+  "bugs": {
+    "url": "http://github.com/sasadjolic/terminal/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sasadjolic/terminal"
+  },
+  "scripts": {
+    "debug": "node debug/debug.js",
+    "build": "node build/build.js",
+    "test": "node test/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "express": "4.16.x",
+    "express-less": "^0.1.0",
+    "fs-extra": ">= 0.0.4",
+    "less": "1.3.x",
+    "mime": "1.2.x",
+    "opn": "^5.1.0",
+    "qunit": "0.4.x",
+    "seq": "0.3.x"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
 }
