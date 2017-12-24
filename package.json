@@ -1,7 +1,7 @@
 {
   "name": "dom-terminal",
   "description": "Simple command-line terminal for your browser app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "javascript",
     "terminal",
