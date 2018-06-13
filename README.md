@@ -92,7 +92,7 @@ You can change the prompt. The default is an empty prompt with a `>` separator.
 Set the prompt option to change.
 
 ```js
-var terminal = new Terminal('terminal', {prompt: 'C:\', separator: '&gt;'}, {});
+var terminal = new Terminal('terminal', {prompt: 'C:\\', separator: '&gt;'}, {});
 ```
 
 This will display the prompt like this: `C:\>`
