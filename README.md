@@ -105,11 +105,12 @@ There are 3 built-in themes:
 * `modern`
 * `white`
 
-`interlaced` theme is the default. If you're nostalgic about the old-school CRT
-monitors then this theme is for you.
+`modern` theme is the default
 
 `modern` is a clean modern theme that's white on black, while the `white` theme is
 black on white.
+
+If you're nostalgic about the old-school CRT monitors then the `interlaced` theme is for you.
 
 Set the theme in options:
 
