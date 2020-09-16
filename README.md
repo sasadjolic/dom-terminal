@@ -39,32 +39,32 @@ define some:
 
 ```js
 var terminal = new Terminal('terminal', {}, {
-	execute: function(cmd, args) {
-		switch (cmd) {
-			case 'clear':
-				terminal.clear();
-				return '';
+  execute: function(cmd, args) {
+    switch (cmd) {
+      case 'clear':
+        terminal.clear();
+        return '';
 
-			case 'help':
-				return 'Commands: clear, help, theme, ver or version<br>More help available <a class="external" href="http://github.com/sasadjolic/dom-terminal" target="_blank">here</a>';
+      case 'help':
+        return 'Commands: clear, help, theme, ver or version<br>More help available <a class="external" href="http://github.com/sasadjolic/dom-terminal" target="_blank">here</a>';
 
-			case 'theme':
-				if (args && args[0]) {
-					if (args.length > 1) return 'Too many arguments';
-					else if (args[0].match(/^interlaced|modern|white$/)) { terminal.setTheme(args[0]); return ''; }
-					else return 'Invalid theme';
-				}
-				return terminal.getTheme();
+      case 'theme':
+        if (args && args[0]) {
+          if (args.length > 1) return 'Too many arguments';
+          else if (args[0].match(/^interlaced|modern|white$/)) { terminal.setTheme(args[0]); return ''; }
+          else return 'Invalid theme';
+        }
+        return terminal.getTheme();
 
-			case 'ver':
-			case 'version':
-				return '1.0.2';
+      case 'ver':
+      case 'version':
+        return '1.0.2';
 
-			default:
-				// Unknown command.
-				return false;
-		};
-	}
+      default:
+        // Unknown command.
+        return false;
+    };
+  }
 });
 ```
 
@@ -127,18 +127,18 @@ own set of commands. This can be done through options when creating the object.
 
 ```js
 var terminal = new Terminal('terminal', {}, {
-	execute: function(cmd, args) {
-		switch (cmd) {
-			case 'hello':
-				return 'world';
+  execute: function(cmd, args) {
+    switch (cmd) {
+      case 'hello':
+        return 'world';
 
-			// Place your other commands here.
+      // Place your other commands here.
 
-			default:
-				// Unknown command.
-				return false;
-		};
-	}
+      default:
+        // Unknown command.
+        return false;
+    };
+  }
 });
 ```
 
@@ -158,19 +158,19 @@ You can have more than one command set and you can list them out one after anoth
 
 ```js
 var terminal = new Terminal('terminal', {}, {
-	execute: function(cmd, args) {
-		switch (cmd) {
-			case 'hello': return 'world';
-			default: return false;
-		};
-	}
+  execute: function(cmd, args) {
+    switch (cmd) {
+      case 'hello': return 'world';
+      default: return false;
+    };
+  }
 },{
-	execute: function(cmd, args) {
-		switch (cmd) {
-			case 'echo': return args[0];
-			default: return false;
-		};
-	}
+  execute: function(cmd, args) {
+    switch (cmd) {
+      case 'echo': return args[0];
+      default: return false;
+    };
+  }
 });
 ```
 
