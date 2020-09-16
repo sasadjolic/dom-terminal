@@ -53,11 +53,11 @@ seq()
 		styles = '' + styles;
 
 		// Embed interlace.png
-		var interlace = 'url("data:' + mime.lookup('lib/interlace.png') + ';base64,' + new Buffer(interlacepng).toString('base64') + '")';
+		var interlace = 'url("data:' + mime.lookup('lib/interlace.png') + ';base64,' + Buffer.from(interlacepng).toString('base64') + '")';
 		styles = styles.replace(/data-uri\(\"interlace\.png\"\)/g, interlace);
 
 		// Embed external.png
-		var external = 'url("data:' + mime.lookup('lib/external.png') + ';base64,' + new Buffer(externalpng).toString('base64') + '")';
+		var external = 'url("data:' + mime.lookup('lib/external.png') + ';base64,' + Buffer.from(externalpng).toString('base64') + '")';
 		styles = styles.replace(/data-uri\(\"external\.png\"\)/g, external);
 
 		// Minify the stylesheet.
