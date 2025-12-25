@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: qunit
+    versions:
+    - 2.14.0
+    - 2.14.1
+  - dependency-name: less
+    versions:
+    - 4.1.0
