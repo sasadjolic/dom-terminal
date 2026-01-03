@@ -34,7 +34,7 @@
     "lib": "lib"
   },
   "devDependencies": {
-    "express": "4.16.x",
+    "express": "4.17.x",
     "express-less": "^0.1.0",
     "fs-extra": ">= 0.0.4",
     "jsmin": "^1.0.1",
